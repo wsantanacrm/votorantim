@@ -96,23 +96,23 @@ angular.module("App.controllers", [])
         $rootScope.dadosGraficosColunas = [{
             "id": "cim",
             "type": "bar",
-            "name": "cimentos"
+            "name": "CIMENTOS"
         }, {
             "id": "col",
             "type": "bar",
-            "name": "colantes"
+            "name": "COLANTES"
         }, {
             "id": "bas",
             "type": "bar",
-            "name": "básicas"
+            "name": "BÁSICAS"
         }, {
             "id": "cal",
             "type": "bar",
-            "name": "cales"
+            "name": "CAL"
         }, {
             "id": "agr",
             "type": "bar",
-            "name": "agregados"
+            "name": "AGREGADOS"
         }];
 
         $rootScope.datax = {
@@ -164,15 +164,15 @@ angular.module("App.controllers", [])
 
         $rootScope.pesquisas = [{
                 id: 652323,
-                data: "01.04.2017 - 08:22",
+                data: "01.10.2017 - 08:22",
                 resumo: "O cliente não efetuou compras nos últimos 3 meses, porém agora demonstra interesse de produtos para obras especiais."
             }, {
                 id: 652434,
-                data: "02.04.2017 - 10:52",
+                data: "02.09.2017 - 10:52",
                 resumo: "Sem dados"
             }, {
                 id: 652434,
-                data: "03.04.2017 - 11:11",
+                data: "03.08.2017 - 11:11",
                 resumo: "Sem dados"
             }
 
@@ -182,28 +182,28 @@ angular.module("App.controllers", [])
 
         $rootScope.interacoes = [{
             id: 6478,
-            data: "01.04.2017 - 08:22",
+            data: "11.10.2017 - 08:22",
             status: "Aberto",
             tipoId: "1",
             tipo: "LIGACAO IN",
             resumo: "Informações de crédito para novas compras."
         }, {
             id: 6455,
-            data: "02.04.2017 - 10:52",
+            data: "02.09.2017 - 10:52",
             status: "Fechado",
             tipoId: "2",
             tipo: "LIGACAO OUT",
             resumo: "Cliente solicitou informação sobre produto Votomassa."
         }, {
             id: 6155,
-            data: "05.04.2017 - 11:11",
+            data: "05.08.2017 - 11:11",
             status: "Aberto",
             tipoId: "1",
             tipo: "LIGACAO IN",
             resumo: "Contato do cliente via Chat solicitando visita de vendedor externo."
         }, {
             id: 6331,
-            data: "10.04.2017 - 13:20",
+            data: "10.07.2017 - 13:20",
             status: "Fechado",
             tipoId: "2",
             tipo: "LIGACAO OUT",
@@ -240,29 +240,29 @@ angular.module("App.controllers", [])
                 m1: "0760 x 1120",
                 m2: "355KG",
                 m3: "$ 4,78",
-                m4: "15/03",
-                m5: "15/06"
+                m4: "15/10",
+                m5: "15/12"
             },
             {
                 produto: "20049459",
                 m1: "0660 x 0960",
                 m2: "150KG",
                 m3: "$ 5,60",
-                m4: "15/03",
-                m5: "15/06"
+                m4: "15/10",
+                m5: "15/12"
             },
             {
                 produto: "20008547",
                 m1: "2092 x 4409",
                 m2: "227KG",
                 m3: "$ 12,10",
-                m4: "20/04",
-                m5: "20/06"
+                m4: "20/09",
+                m5: "27/11"
             }
         ]
 
         $rootScope.faturaTon = [{
-                produto: "Não Revestidos",
+                produto: "CIMENTO",
                 m1: 10,
                 m2: 15,
                 m3: 20,
@@ -270,7 +270,7 @@ angular.module("App.controllers", [])
                 m5: 25,
                 m6: 30
             }, {
-                produto: "Embalagens",
+                produto: "COLANTES",
                 m1: 8,
                 m2: 12,
                 m3: 22,
@@ -278,7 +278,7 @@ angular.module("App.controllers", [])
                 m5: 44,
                 m6: 55
             }, {
-                produto: "Revestidos",
+                produto: "BÁSICAS",
                 m1: 22,
                 m2: 30,
                 m3: 40,
@@ -286,7 +286,7 @@ angular.module("App.controllers", [])
                 m5: 66,
                 m6: 70
             }, {
-                produto: "Para Escrever",
+                produto: "CAL",
                 m1: 9,
                 m2: 22,
                 m3: 23,
@@ -305,28 +305,28 @@ angular.module("App.controllers", [])
 
         $rootScope.pedidos = [{
             id: 9000270,
-            data: "11.05.17 15:13",
+            data: "11.10.17 15:13",
             tipo: "COT",
             status: "REALIZADO",
-            resumo: "PAPEL ALTA ALVURA ALCALINO, PAPEL PAPERFECT OFFSET, PAPEL REPORT PREMIUM"
+            resumo: "CIMENTO VOTORAN TODAS AS OBRAS,CIMENTO VOTORAN OBRAS ESTRUTURAIS"
         }, {
             id: 9000227,
-            data: "18.04.17 12:44",
+            data: "18.10.17 12:44",
             tipo: "PED",
             status: "FATURADO",
-            resumo: "PAPEL PAPERFECT OFFSET, PAPEL ALTA ALVURA ALCALINO"
+            resumo: "CIMENTO VOTORAN OBRAS ESTRUTURAIS, CAL DE PINTURA BÁSICA"
         }, {
             id: 9000214,
-            data: "18.04.17 17:55",
+            data: "18.09.17 17:55",
             tipo: "PED",
             status: "ENTREGUE",
-            resumo: "PAPEL REPORT PREMIUM, PAPEL PAPERFECT OFFSET"
+            resumo: "CIMENTO VOTORAN TODAS AS OBRAS, ARGAMASSA PISO SOBRE PISO"
         }, {
             id: 9000199,
-            data: "18.03.17 17:55",
+            data: "18.08.17 15:25",
             tipo: "COT",
             status: "CANCELADO",
-            resumo: "PAPEL COUCHE FIT GLOSS, PAPEL REPORT PREMIUM"
+            resumo: "CAL HIDRATADA"
         }];
 
     });
