@@ -1,0 +1,10 @@
+<div class="modal-header header-blue">
+    <h2 class="modal-title" id="modal-title">Dashboards Opcionais</h2>
+</div>
+<div class="config-checkbox">
+    <div class="checkbox" ng-repeat="(key, value) in windows">
+        <label>
+            <input type="checkbox" ng-disabled="getEnabled(value)" ng-checked="value.enable" ng-value="value.enable" ng-click="select(value)"> {{value.name}}
+        </label>
+    </div>
+</div>

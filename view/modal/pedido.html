@@ -1,0 +1,54 @@
+<!-- <div class="modal-header header-green">
+    <h3 class="modal-title" id="modal-title">Resumo do Cliente</h3>
+</div>
+ -->
+<div class="alert alert-danger" role="alert"><i class="fa fa-2x fa-exclamation-triangle" aria-hidden="true"> Risco de Fraude!</i></div>
+<div class="info-2">
+    <div class="row">
+        <div class="col-xs-6">
+            <dl class="dl-flex-block">
+                <dt><i class="fa fa-usd" aria-hidden="true"></i> Valor Crédito:</dt>
+                <dd>R$ 22.000,00</dd>
+                <dt><i class="fa fa-shopping-bag" aria-hidden="true"></i> Frequência comra:</dt>
+                <dd>22 dias</dd>
+                <dt><i class="fa fa-calendar" aria-hidden="true"></i> Último Contato:</dt>
+                <dd>22.04.17 - 18:22</dd>
+            </dl>
+        </div>
+        <div class="col-xs-6">
+            <dl class="dl-flex-block">
+                <dt><i class="fa fa-dropbox" aria-hidden="true"></i> Skus mais comprados:</dt>
+            </dl>
+
+            
+            <table class="table table-hover">
+                <!-- <caption>Monthly Kills</caption> -->
+                <thead>
+                    <tr>
+                        <th>SKU</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="sku in skus | filter:filtro2">
+                        <td>{{sku.id}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <h3 class="panel-title">Anotações sobre cliente</h3>
+            </div>
+            <div class="panel-body ">
+                <div class="alert inline-alert alert-success" role="alert">Só compra produtos em promoção</div>
+                <div class="alert inline-alert alert-info" role="alert">Sempre pede pra entregar em enederços diferentes</div>
+                <!-- <div class="alert inline-alert alert-warning" role="alert">...</div> -->
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-warning" type="button" ng-click="cancel()">Fechar</button>
+</div>

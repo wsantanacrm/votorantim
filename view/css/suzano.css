@@ -1,0 +1,13 @@
+.header-suzano {
+    padding: 5px;
+    background: #eee;
+    margin-bottom: 5px;
+}
+
+.config-checkbox {
+    padding: 10px 40px;
+}
+
+.config-checkbox .checkbox label {
+    font-size: 15px;
+}
