@@ -96,23 +96,23 @@ angular.module("App.controllers", [])
         $rootScope.dadosGraficosColunas = [{
             "id": "cim",
             "type": "bar",
-            "name": "CIMENTOS"
+            "name": "CATEGORIA"
         }, {
             "id": "col",
             "type": "bar",
-            "name": "COLANTES"
+            "name": "ELETRÔNICOS"
         }, {
             "id": "bas",
             "type": "bar",
-            "name": "BÁSICAS"
+            "name": "BOOKS"
         }, {
             "id": "cal",
             "type": "bar",
-            "name": "CAL"
+            "name": "CARROS"
         }, {
             "id": "agr",
             "type": "bar",
-            "name": "AGREGADOS"
+            "name": "CASA"
         }];
 
         $rootScope.datax = {
