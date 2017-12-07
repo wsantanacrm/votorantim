@@ -193,7 +193,7 @@ angular.module("App.controllers", [])
             status: "Fechado",
             tipoId: "2",
             tipo: "LIGACAO OUT",
-            resumo: "Cliente solicitou informação sobre produto Votomassa."
+            resumo: "Cliente solicitou informação sobre produto Iphone 8."
         }, {
             id: 6155,
             data: "05.08.2017 - 11:11",
@@ -262,7 +262,7 @@ angular.module("App.controllers", [])
         ]
 
         $rootScope.faturaTon = [{
-                produto: "CIMENTO",
+                produto: "ELETRÔNICOS",
                 m1: 10,
                 m2: 15,
                 m3: 20,
@@ -270,7 +270,7 @@ angular.module("App.controllers", [])
                 m5: 25,
                 m6: 30
             }, {
-                produto: "COLANTES",
+                produto: "BOOKS",
                 m1: 8,
                 m2: 12,
                 m3: 22,
@@ -278,7 +278,7 @@ angular.module("App.controllers", [])
                 m5: 44,
                 m6: 55
             }, {
-                produto: "BÁSICAS",
+                produto: "CARROS",
                 m1: 22,
                 m2: 30,
                 m3: 40,
@@ -286,7 +286,7 @@ angular.module("App.controllers", [])
                 m5: 66,
                 m6: 70
             }, {
-                produto: "CAL",
+                produto: "CASA",
                 m1: 9,
                 m2: 22,
                 m3: 23,
@@ -308,25 +308,25 @@ angular.module("App.controllers", [])
             data: "11.10.17 15:13",
             tipo: "COT",
             status: "REALIZADO",
-            resumo: "CIMENTO VOTORAN TODAS AS OBRAS,CIMENTO VOTORAN OBRAS ESTRUTURAIS"
+            resumo: "Carregador Iphone 7"
         }, {
             id: 9000227,
             data: "18.10.17 12:44",
             tipo: "PED",
             status: "FATURADO",
-            resumo: "CIMENTO VOTORAN OBRAS ESTRUTURAIS, CAL DE PINTURA BÁSICA"
+            resumo: "New Ipad 32gb Tela"
         }, {
             id: 9000214,
             data: "18.09.17 17:55",
             tipo: "PED",
             status: "ENTREGUE",
-            resumo: "CIMENTO VOTORAN TODAS AS OBRAS, ARGAMASSA PISO SOBRE PISO"
+            resumo: "PS4 Sony 1 Tera"
         }, {
             id: 9000199,
             data: "18.08.17 15:25",
             tipo: "COT",
             status: "CANCELADO",
-            resumo: "CAL HIDRATADA"
+            resumo: "Iphone 8 128 GB"
         }];
 
     });
